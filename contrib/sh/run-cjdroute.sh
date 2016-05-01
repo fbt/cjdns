@@ -17,7 +17,7 @@ main() {
 		case "$1" in
 			-h|--help)
 				usage
-				retrurn 0;;
+				return 0;;
 
 			-c|--config)
 				cjdroute_config=$2
