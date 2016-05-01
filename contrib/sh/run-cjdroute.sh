@@ -34,7 +34,7 @@ main() {
 		shift
 	done
 
-	exec cjdroute "$@" < $cjdroute_config
+	exec cjdroute "$@" < "$cjdroute_config"
 }
 
 # DO SOMETHING
